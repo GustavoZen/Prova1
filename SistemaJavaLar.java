@@ -161,7 +161,7 @@ public class SistemaJavaLar {
 			else
 				saida += "Explodiu\n";
 			saida += "Dias passados: " + p.horasPassadas + "\n";
-			saida += p.resumo+="\n";
+			saida += p.resumo + "\n";
 		}
 		saida+="Foram pedidos instantes " + (instantesvezes-1) + " vezes e a soma dos instantes é de: " + instantes;}
 		return saida;
