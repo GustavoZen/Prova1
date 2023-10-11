@@ -49,7 +49,7 @@ public class Main {
 		int b=1;
 		int d=1;
 		// Start Experience
-		while (r!=0 && b!=0 && d!=0) {
+		while (r!=0 || b!=0 || d!=0) {
 			System.out.println("ATENÇÃO PARA SAIR DO PROGRAMA RESPONDA TODAS AS PERGUNTAS COM '0'");
 			System.out.println("Quantos instantes deseja mover?");
 			r = entrada.nextInt();
